@@ -10,12 +10,12 @@ const ShoppingCartIcon = ({
   itemsNumber,
 }: ShoppingCartItemProps): JSX.Element => (
   <button
-    className="shoppingCart fixed top-5 right-8 text-center bg-white rounded-full border-black border-2 p-2 "
+    className="shoppingCart fixed sm:top-5 sm:right-8 top-3 right-4 text-center bg-white rounded-full border-black border-2 p-2 "
     onClick={onClick}
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="sm:h-8 sm:w-8 h-6 w-6"
+      className="sm:h-8 sm:w-8 h-5 w-5"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
